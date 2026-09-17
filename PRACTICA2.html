@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos Recientes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .ancho {
+            width: 18rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container py-4">
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="#">Tienda</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Laptops
+                </li>
+            </ol>
+        </nav>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>¡Campaña de Descuentos!</strong> 20% OFF con el cupón <strong>DESCUENTO20</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <div class="mb-4">
+            <span class="fw-bold me-2">Categorías:</span>
+
+            <div class="btn-group" role="group">
+
+                <input class="btn-check" type="radio" id="btn-radio1"
+                    name="btn-radio" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btn-radio1">
+                    Todas
+                </label>
+
+                <input class="btn-check" type="radio" id="btn-radio2"
+                    name="btn-radio" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-radio2">
+                    Laptops
+                </label>
+
+                <input class="btn-check" type="radio" id="btn-radio3"
+                    name="btn-radio" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-radio3">
+                    Accesorios
+                </label>
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 mb-3">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <span class="text-muted small">Oferta Relámpago</span>
+                            <span class="badge bg-danger">Popular</span>
+                        </div>
+
+                        <h1 class="h5 card-title">
+                            Workstation Pro 15"
+                        </h1>
+
+                        <p class="card-text text-muted">
+                            Equipo de cómputo para desarrollo de software y
+                            renderizado 3D.
+                        </p>
+
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Procesador Intel i9</li>
+                        <li class="list-group-item">32GB RAM DDR5</li>
+                    </ul>
+
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <span class="fw-bold">S/ 5,200</span>
+                        <button class="btn btn-primary">Comprar Ahora</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 mb-3">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <span class="text-muted small">Últimas Unidades</span>
+                            <span class="badge bg-success">En Stock</span>
+                        </div>
+
+                        <h1 class="h5 card-title">
+                            Ultrabook Slim 14"
+                        </h1>
+
+                        <p class="card-text text-muted">
+                            Portabilidad extrema con batería de hasta 18 horas de
+                            duración.
+                        </p>
+
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Procesador AMD Ryzen 7</li>
+                        <li class="list-group-item">16GB RAM DDR4</li>
+                    </ul>
+
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <span class="fw-bold">S/ 3,800</span>
+                        <button class="btn btn-primary">Comprar Ahora</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
